@@ -1,0 +1,17 @@
+[project]
+name = "cv-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.143.0",
+    "geopy>=2.5.0",
+    "google-adk>=1.14.1",
+    "ipykernel>=7.4.0",
+    "litellm>=1.104.2",
+    "psycopg>=3.3.6",
+    "sqlalchemy>=2.1.4",
+    "timezonefinder>=9.0.0",
+    "uvicorn>=0.54.0",
+]
